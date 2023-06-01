@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Serif:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link href="/css/cabecalho.css" rel="stylesheet">
+    <link href="/css/registrar.css" rel="stylesheet">
+    <link href="/css/footer.css" rel="stylesheet">
+    <link rel="icon" href="/imagens/logo.jpg" type="image/x-icon">
+    <title>Registrar</title>
+</head>
+<body>
+
+    <!-- header -->
+    <div class="background">
+        <header class="saibamais">
+            <span class="headercontent">Quer saber mais sobre a nossa empresa?</span>
+            <button class="teste"><a href="/paginas/sobre.html"><span class="textoteste">SAIBA MAIS</span></a></button>
+        </header>
+        <hr>
+        <header class="cabecalho">
+            <a href="/index.html"><img class="logo" src="/imagens/logojp.png" alt="logo"></a>
+            <nav>
+                <ul class="menu">
+                    <li><a href="/paginas/jogar.html">Jogar</a></li>
+                    <li><a href="/paginas/sobre.html">Sobre</a></li>
+                    <li><a href="/paginas/planos.html">Planos</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <a href="/paginas/registrar.html"><span class="icone"><ion-icon name="person-outline"></ion-icon></span></a>
+                <a href="/paginas/registrar.html"><span class="icone"><ion-icon name="log-in-outline"></ion-icon></span></a>
+            </div>
+        </header>
+        <hr class="barrinha">
+    </div>
+    <!-- fim do header -->
+
+  <h1>Área de Registro e Login</h1>
+
+  <!-- Formulário de Registro -->
+  <h2>Registrar-se</h2>
+  <form>
+    <label for="username">Nome de usuário:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="password">Senha:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="submit">Registrar-se</button>
+  </form>
+
+  <!-- Formulário de Login -->
+  <h2>Login</h2>
+  <form class="areaRegistro">
+    <label for="loginUsername">Nome de usuário:</label>
+    <input type="text" id="loginUsername" name="loginUsername" required>
+
+    <label for="loginPassword">Senha:</label>
+    <input type="password" id="loginPassword" name="loginPassword" required>
+
+    <button type="submit">Login</button>
+  </form>
+
+
+    <!-- rodapé -->
+    <footer class="rodape">
+        <div class="conteudo-rodape">
+          <p>Desenvolvido por Cauã Moreto</p>
+        </div>
+    </footer>
+      
+    <!-- icones -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>

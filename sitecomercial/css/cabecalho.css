@@ -1,0 +1,129 @@
+/* font-family: 'Fjalla One', sans-serif;
+font-family: 'Noto Serif', serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.saibamais{
+    background-color: #99dfa1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.saibamais span{
+    /* text-align: center; */
+    font-family: 'Fjalla One', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    /* margin: 5px; */
+    color: #000000;
+    /* padding-right: 20px; */
+}
+
+.saibamais button span{
+    font-family: 'Fjalla One', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.teste{
+    /* margin-left: 30%; */
+    margin: 10px;
+    height: 50px;
+    width: 120px;
+    background-color: #e94747;
+    border-radius: 27px;
+    cursor: pointer;
+}
+
+.teste a{
+    text-decoration: none;
+}
+
+.teste:hover{
+    background-color: #13c7a0;
+    text-transform: capitalize;
+    border-bottom: solid;
+}
+
+.cabecalho {
+    display: flex;
+    /* background-repeat: no-repeat; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    /* background-color: #849dff; */
+}
+
+.cabecalho .logo {
+    /* align-items: center; */
+    width: 70px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+    height: 40%;
+    list-style: none;
+
+}
+
+.cabecalho nav li a{
+    /* padding: 2rem; */
+    /* padding-right: 2rem; */
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    font-style: normal;
+    font-size: 23px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #000000;
+    /* padding-right: 20px; */
+}
+
+.cabecalho nav li a:hover{
+    text-transform: capitalize;
+    color:cornflowerblue;
+    border-bottom: solid;
+}
+
+.cabecalho img{
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+.icons{
+    margin-right: 2rem;
+}
+
+.icons a{
+    color: #000000;
+}
+
+.icone ion-icon{
+    margin-left: 1rem;
+    cursor:pointer;
+    font-size: 1.5rem;
+}
+
+.icone ion-icon:hover{
+    text-transform: capitalize;
+    color:cornflowerblue;
+    border-bottom: solid;
+}
+
+.barrinha{
+    color: #000000;
+}

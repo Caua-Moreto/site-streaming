@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.primeiroBloco{
+    display: flex;
+    justify-content: center;
+}
+
+.primeiroTexto{
+    font-family: 'Noto Serif', serif;
+    text-shadow: 4px 4px 6px rgba(9, 3, 5, 0.5);
+    font-size: 2rem;
+    margin-right: 80px;
+    margin-top: 200px;
+    text-align: center;
+    animation: bounceInDown;
+    animation-duration: 2s;
+}
+
+.geralt{
+    text-align: end;
+    /* margin-left: 200px; */
+    width: 400px;
+    height: auto;
+    /* border-radius: 10rem; */
+    /* display: block; */
+    /* margin: 0 auto; */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .bloco {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bloco:hover {
+    transform: translate(0, -5px);
+    /* opacity : 0.5; */
+  } */
+
+  .tituloBloco {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .corpo {
+    margin-top: 10px;
+  }
+
+  .bloco:nth-child(1) {
+    cursor: pointer;
+    background-color: rgba(238, 132, 132, 0.5); /* Vermelho */
+  }
+  .bloco:nth-child(1):hover {
+    background-color: rgba(238, 132, 132, 0.8); /* Vermelho */
+  }
+
+  .bloco:nth-child(2) {
+    cursor: pointer;
+
+    background-color: rgba(134, 238, 134, 0.5); /* Verde */
+  }
+  .bloco:nth-child(2):hover {
+    background-color: rgba(134, 238, 134, 0.8); /* Verde */
+  }
+  .bloco:nth-child(3) {
+    cursor: pointer;
+    background-color: rgba(116, 116, 235, 0.5); /* Azul */
+  }
+  .bloco:nth-child(3):hover {
+    background-color: rgba(116, 116, 235, 0.8); /* Azul */
+  }
+
+/* segundo bloco */
+
+.area-perguntas {
+    display: flex;
+    margin: 30px;
+  }
+  
+  .perguntas {
+    width: 50%;
+    padding-right: 20px;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: fadeInLeft;
+    animation-duration: 2s;
+  }
+  
+  .titulo-pergunta {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    animation: fadeInLeft;
+    animation-duration: 2s;
+  }
+  
+  .imagem-reservada img{
+    width: 800px;
+    object-fit: contain;
+  }
